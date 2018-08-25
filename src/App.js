@@ -9,13 +9,13 @@ import Routes from 'react-static-routes'
 
 WebFont.load({
   google: {
-    families: ['M PLUS Rounded 1c:400,700&text=אבגהוזחטיכלמנסעפצקרשת']
+    families: ['Arimo:400,700']
   }
 })
 injectGlobal`
  ${resetCss}
   body {
-    font-family: 'M PLUS Rounded 1c';
+    font-family: 'Arimo', sans-serif;
     margin: 0;
     padding: 0;
   }
